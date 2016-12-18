@@ -51,6 +51,7 @@
 		90C39F271E06E09600800668 /* CRConfirmOrderServiceProtocolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRConfirmOrderServiceProtocolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C39F2B1E06E09600800668 /* CRConfirmOrderServiceProtocolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRConfirmOrderServiceProtocolUITests.m; sourceTree = "<group>"; };
 		90C39F2D1E06E09600800668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90C39F3A1E06E0F100800668 /* CRConfirmOrderServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRConfirmOrderServiceProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 		90C39F051E06E09500800668 /* CRConfirmOrderServiceProtocol */ = {
 			isa = PBXGroup;
 			children = (
+				90C39F391E06E0B800800668 /* CRConfirmOrderServiceProtocol */,
 				90C39F091E06E09500800668 /* AppDelegate.h */,
 				90C39F0A1E06E09500800668 /* AppDelegate.m */,
 				90C39F0C1E06E09500800668 /* ViewController.h */,
@@ -138,6 +140,14 @@
 				90C39F2D1E06E09600800668 /* Info.plist */,
 			);
 			path = CRConfirmOrderServiceProtocolUITests;
+			sourceTree = "<group>";
+		};
+		90C39F391E06E0B800800668 /* CRConfirmOrderServiceProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				90C39F3A1E06E0F100800668 /* CRConfirmOrderServiceProtocol.h */,
+			);
+			path = CRConfirmOrderServiceProtocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
